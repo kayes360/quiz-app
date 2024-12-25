@@ -1,0 +1,16 @@
+export const actions = {
+    quiz_set : {
+        'QUIZ_SET_LOADING' : 'QUIZ_SET_LOADING',
+        'QUIZ_SET_FETCHED' : 'QUIZ_SET_FETCHED',
+        'QUIZ_SET_CREATED' : 'QUIZ_SET_CREATED',
+        'QUIZ_SET_UPDATED' : 'QUIZ_SET_UPDATED',
+        'QUIZ_SET_DELETED' : 'QUIZ_SET_DELETED', 
+    }, 
+    question : {
+        'QUESTION_LOADING' : 'QUESTION_LOADING',
+        'QUESTION_FETCHED' : 'QUESTION_FETCHED',
+        'QUESTION_CREATED' : 'QUESTION_CREATED',
+        'QUESTION_UPDATED' : 'QUESTION_UPDATED',
+        'QUESTION_DELETED' : 'QUESTION_DELETED', 
+    }, 
+}
