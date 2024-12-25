@@ -1,5 +1,5 @@
 import React from "react";
-import Aside from "../components/admin/aside";
+import Aside from "../components/admin/Aside";
 import { Outlet } from "react-router-dom";
 
 export default function AdminLayout() {
